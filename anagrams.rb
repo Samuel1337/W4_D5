@@ -28,8 +28,7 @@ def hash_str(string)
     hash
 end 
 
-def fourth_anagram?(*strings)anagram?("gizmo", "sally")    #=> false
-    anagram?("elvis", "lives")    #=> true
+def fourth_anagram?(*strings)anagram?
     first_word = strings.first 
     last_word = strings.last
     hash_str(first_word) == hash_str(last_word) 
